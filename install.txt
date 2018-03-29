@@ -23,5 +23,10 @@ And install all the tools specified here.
 
 c) Install st-flash (https://github.com/texane/stlink)
 
-Refer: https://github.com/texane/stlink/blob/master/doc/compiling.md (Linux)
+Refer: https://github.com/texane/stlink/blob/master/doc/compiling.md (Linux, build from source)
+
+Before building st-flash, please do:
+
+sudo apt-get install build-essential libusb-1.0-0-dev
+
 
